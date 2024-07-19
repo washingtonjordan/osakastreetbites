@@ -396,67 +396,6 @@ vertical-align: middle;
   vertical-align: middle;
 }
 
-#toTop {
-  height: 50px;
-  width: 50px;
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: #996E6D;
-  color: white;
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 2rem;
-  box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
-}
-
-#toTop a {
-  color: white;
-}
-
-#toTop:hover {
-  background-color: #BC8887;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-  background-color: #F4E2E2;
-}
-
-::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
-  background-color: #BC8887;
-}
-
-body.preloader-site {
-  overflow: hidden;
-}
-
-.preloader-wrapper {
-  height: 100%;
-  width: 100%;
-  background: #D8A9A8;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999999;
-}
-
-.preloader-wrapper .preloader {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  width: 120px;
-}
-
-
 .btn-whatsapp:hover {
   color: white;
   background-color: #59a543;
