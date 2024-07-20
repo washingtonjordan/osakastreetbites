@@ -451,7 +451,7 @@
       const url = new URL(currentUrl);
       const hasGclid = url.searchParams.has('gclid');    
       if (hasGclid) {
-        document.body.style.overflow='hidden';
+        document.documentElement.style.overflow = 'hidden';
       }
     </script>
   </body>
